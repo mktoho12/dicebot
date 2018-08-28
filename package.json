@@ -1,0 +1,14 @@
+{
+  "name": "dice-bot",
+  "version": "0.1.0",
+  "private": true,
+  "author": "mktoho12 <makoto_16n1200102@nnn.ed.jp>",
+  "description": "Dice roll bot",
+  "dependencies": {
+    "hubot": "^3.1.1",
+    "hubot-slack": "^4.5.4"
+  },
+  "engines": {
+    "node": "6.14.x"
+  }
+}
