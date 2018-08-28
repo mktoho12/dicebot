@@ -7,14 +7,3 @@ module.exports = (robot) ->
     eyes = [1..dices].map -> Math.floor(Math.random() * faces) + 1
     total = eyes.reduce (l,r) -> l + r
     msg.send "#{dices}d#{faces} -> #{total}"
-
-  robot.respond /^help$/, (msg) ->
-    msg.send '''
-つかいかた：
-```
-@dicebot 2d6
-```
-↑で6面のダイスを2個振ります。
-ダイスの数、面の数ともに1～1,000まで指定できます。
-'''
-    return
